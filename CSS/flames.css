@@ -1,0 +1,81 @@
+body{
+  margin: 0;
+  font-family: cursive;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: black;
+  height: 100vh;
+  padding: 15px;
+}
+*{
+  box-sizing: border-box;
+  outline: none;
+}
+.form{
+  width: 400px;
+  box-shadow: 0px 0px 40px rgba(255,255,255,0.6);
+  padding: 40px 40px 40px;
+  display: flex;
+  flex-direction: column;
+}
+.form h1{
+  margin: 0 0 20px;
+  text-align: center;
+  color: #ddd;
+}
+.form .form-field{
+  margin-bottom: 40px;
+  width: 100%;
+  position: relative;
+}
+.form .form-field:last-child{
+  margin-bottom: 0;
+}
+.form .form-field label{
+  position: absolute;
+  left: 0;
+  top: 12px;
+  color: #ddd;
+  transition: all .5s ease;
+  pointer-events: none;
+}
+.form .form-field.active label{
+  color: #1995f1;
+  top: -18px;
+}
+.form .form-field .border-line{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: #1995f1;
+  transition: all .5s ease;
+}
+.form .form-field.active .border-line{
+  width: 100%;
+}
+.form .form-field input{
+  height: 40px;
+  font-family: cursive;
+  color: #dddddd;
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #ddd;
+}
+.form .form-field button{
+  height: 40px;
+  width: 100%;
+  border: none;
+  background-color: #1995f1;
+  color: #000000;
+}
+
+
+@media(max-width: 500px){
+  .form{
+    width: 100%;
+  }
+}
