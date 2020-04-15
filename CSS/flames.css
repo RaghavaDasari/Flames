@@ -1,7 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Felipa&display=swap');
 body{
   margin: 0;
-  font-family: 'Felipa', cursive;
+  font-family: 'Times new roman', cursive;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -36,6 +35,7 @@ body{
 .form .form-field label{
   position: absolute;
   left: 0;
+  font-size: 20px;
   top: 12px;
   color: #ddd;
   transition: all .5s ease;
@@ -59,7 +59,7 @@ body{
 }
 .form .form-field input{
   height: 40px;
-  font-family: 'Felipa', cursive;
+  font-family: 'Times new roman', cursive;
   font-size: 20px;
   color: #dddddd;
   width: 100%;
@@ -72,7 +72,7 @@ body{
   width: 100%;
   border: none;
   background-color: #1995f1;
-  font-family: 'Felipa', cursive;
+  font-family: 'Times new roman', cursive;
   font-size: 20px;
   color: #000000;
 }
