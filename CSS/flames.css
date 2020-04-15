@@ -59,6 +59,7 @@ body{
 .form .form-field input{
   height: 40px;
   font-family: cursive;
+  font-size: 16px;
   color: #dddddd;
   width: 100%;
   background-color: transparent;
@@ -70,6 +71,8 @@ body{
   width: 100%;
   border: none;
   background-color: #1995f1;
+  font-family: cursive;
+  font-size: 16px;
   color: #000000;
 }
 
